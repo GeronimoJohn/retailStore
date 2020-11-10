@@ -5,15 +5,68 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+
+    <!-- Style css -->
+    <link rel="stylesheet" href="/style.css">
 </head>
 
 <body>
     <!-- header/navbar -->
-    <!-- main section of the body -->
+    <header>
+        <nav class="navbar">
+            <div class="navbar__cartButton">
+                <span class="navbar__cart">
+                    My Cart
+                </span>
+                <div class="navbar__cartItems">
+                    ( <span class="navbar__cartCount">0</span> )
+                </div>
+            </div>
+        </nav>
+    </header>
 
+    <!-- Main section -->
+    <section class="products">
+        <div class="products__container">
+            <div class="products__imgContainer">
+                <img src="./images/classic-tee.jpg" alt="">
+            </div>
+            <div class="products__details">
+                <h1>Classic Tee</h1>
+                <hr>
+                <h5>$75.00</h5>
+                <hr>
+                <div class="products__description">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloremque itaque optio ratione
+                        explicabo
+                        ea,
+                        facere sint eveniet consequuntur ab laboriosam. Veritatis laudantium repellendus tenetur quia
+                        voluptatum
+                        eius animi similique dicta?</p>
+                </div>
+                <div class="products__sizeContainer">
+                    <p>Size<span class="products__sizeStar">*</span><span id="size"> </span></p>
+                    <div class="products__sizes">
+                        <button class="product__small">S</button>
+                        <button class="product__medium">M</button>
+                        <button class="product__large">L</button>
+                    </div>
+                    <button class="cartButton">Add to cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <!-- javascript links -->
-    <script src="/app/app.js"></script>
+    <script src="app.js"></script>
 </body>
 
 </html>
