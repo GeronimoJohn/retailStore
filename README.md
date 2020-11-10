@@ -8,3 +8,7 @@ Requirements:
 - Add to cart section (main body of the page)
 - mini cart section (top right)
 - Add to cart functionality
+
+Tried implementing the javascript functionalities but ran out of time in my end. 
+
+Time finished: 9:18pm
