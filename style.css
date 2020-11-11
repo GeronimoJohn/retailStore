@@ -74,6 +74,11 @@ body {
   color: #888888;
 }
 
+.products__sizes {
+  display: flex;
+  align-items: center;
+}
+
 .products__sizeStar {
   color: #c90000;
 }
@@ -82,7 +87,7 @@ body {
   margin: 10px 0;
 }
 
-.products__sizes button {
+.products__sizeOptions button {
   text-decoration: none;
   width: 40px;
   height: 40px;
